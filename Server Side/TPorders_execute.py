@@ -6,7 +6,7 @@ import time, datetime, threading
 import xlwings as xw
 from TPserver_functions import checking_if_the_market_is_open_func
 
-INDEXES_WORKBOOKS_PATH = r"C:\Users\Almogi\Desktop\indexes_workbooks"
+INDEXES_WORKBOOKS_PATH = r"C:\Users\User\Desktop\indexes_workbooks"
 TIME_SPACE = 60.0
 
 # excel columns list :
