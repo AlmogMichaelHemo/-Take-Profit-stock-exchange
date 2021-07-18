@@ -5,8 +5,8 @@ import datetime, pytz, holidays, os
 import pandas_datareader.data as web
 import xlwings as xw
 
-CSV_PATH = r"C:\Users\Almogi\Desktop\csv_for clients" # folder for saving csv files that clients asked for
-INDEXES_WORKBOOKS_PATH = r"C:\Users\Almogi\Desktop\indexes_workbooks"
+CSV_PATH = r"C:\Users\User\Desktop\csv_for clients" # folder for saving csv files that clients asked for
+INDEXES_WORKBOOKS_PATH = r"C:\Users\User\Desktop\indexes_workbooks"
 INDEXES_TABLES = {"DowJones30": "DowJones30",
                   "S&P500": "SP500",
                   "Nasdaq100": "Nasdaq100",
