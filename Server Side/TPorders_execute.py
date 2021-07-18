@@ -1,3 +1,7 @@
+# This code is running in the back of the server all the time.
+# It looking for open buy or sell orders in the database and checks if they are possible to execute.
+# If they do, the orders executed and the information created by the process (money gain/loss or no changes) are saved in the database.
+
 import time, datetime, threading
 import xlwings as xw
 from TPserver_functions import checking_if_the_market_is_open_func
