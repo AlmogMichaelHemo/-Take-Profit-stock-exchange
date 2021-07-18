@@ -1,4 +1,4 @@
-# This code is definding the hole basic UI that the clients side will see and use 
+# This code is defining the whole  basic UI that the client's side will see and use 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtCore import Qt
