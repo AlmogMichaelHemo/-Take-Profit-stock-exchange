@@ -1,4 +1,4 @@
-# This code indluding the windows and the widgets classes that the UI need for different reasons.
+# This code including the windows and the widgets classes that the UI needs for different reasons
 
 from PyQt5.QtWidgets import QWidget, QVBoxLayout
 from PyQt5 import QtCore, QtGui, QtWidgets
