@@ -1,3 +1,5 @@
+# This code indluding the windows and the widgets classes that the UI need for different reasons.
+
 from PyQt5.QtWidgets import QWidget, QVBoxLayout
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtGui import QColor
@@ -5,7 +7,7 @@ import pyqtgraph as pg
 import datetime, pickle
 from TPclient_plot import ask_for_stock_excel
 
-# colors object
+# colors RGB's
 RED_RGB = QColor(247, 181, 186)
 GREEN_RGB = QColor(198, 245, 201)
 BLUE_RGB = QColor(183, 211, 247)
@@ -13,11 +15,11 @@ GREY_RGB = QColor(187, 188, 189)
 BUY_ORDER_RGB = QColor(243, 202, 136)
 SELL_ORDER_RGB = QColor(251, 250, 174)
 
-# path to folder to save the excel files
+# path to folder to save the csv files
 PATH_EXCEL = "C:\\Users\\User\\Desktop\\TPclient_folder\\"
 
 # path to the folder that all the backgrounds in it
-PATH_SIMPLE = "C:\\Users\\User\\Desktop\\פרוייקט בסייבר\\picturs\\"
+PATH_SIMPLE = "C:\\Users\\User\\Desktop\\picturs\\"
 
 
 class StockForBuyWidget:
