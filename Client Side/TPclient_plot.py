@@ -1,5 +1,4 @@
-# This code including four functions that the client use for matplotlib graphes showing and other porpusses.
-
+# This code includes four functions that the client uses for Matplotlib graphs and CSV files handling
 import pandas as pd
 import matplotlib.pyplot as plt
 import pickle, struct, os
