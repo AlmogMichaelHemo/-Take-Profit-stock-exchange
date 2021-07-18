@@ -1,3 +1,6 @@
+# This code is the main server code
+# It mange all the parts of the server inluding sockects communication, handaling with multipule clients at the same time and more...
+
 import threading, socket, pickle, struct, pyodbc, sys, datetime, hashlib
 from TPserver_functions import create_excel_func, specific_searching_in_market_func,\
     more_info_for_stock, free_searching_in_market_func, create_buy_order, create_sell_order,\
