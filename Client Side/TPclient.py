@@ -1,3 +1,5 @@
+# This code is the main client side, manage all the comunication with the server and handle the user asks
+
 import socket, sys, pickle, datetime, pytz, holidays
 
 from PyQt5 import QtWidgets
@@ -6,11 +8,8 @@ from TPclient_plot import ask_for_stock_excel
 from TPui_widgets import StockForBuyWidget, EmptyStockWidget, OrderWidget, NoOrdersWidget,\
     OwnedStockWidget, EmptyOwnedStockWidget, ReportWidget
 
-# laptop ip :
-IP = '192.168.1.31'
-
-# host:
-#IP='127.0.0.1'
+# host IP adress (when the client runing at same computer as the server):
+IP='127.0.0.1'
 
 PORT= 1030
 PATH_EXCEL = "C:\\Users\\User\\Desktop\\TPclient_folder\\"
