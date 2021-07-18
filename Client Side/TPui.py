@@ -1,10 +1,12 @@
+# This code is definding the hole basic UI that the clients side will see and use 
+
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtCore import Qt
 import pyqtgraph as pg
 import datetime
 
 # path for the backgrounds pictures
-PATH_SIMPLE = "C:\\Users\\User\\Desktop\\פרוייקט בסייבר\\picturs\\"
+PATH_SIMPLE = "C:\\Users\\User\\Desktop\\picturs\\"
 
 class UiClient():
     def __init__(self, MainWindow):
