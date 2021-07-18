@@ -1,5 +1,5 @@
-# This code have many algoritems that server use for different tasks.
-# For example, checking if the stock market (only NYSE and Nasdaq) is open at a current time, creating orders, searching for stocks and more...
+# This code has many algorithms that the server use for different tasks
+# For example, checking if the stock market (only NYSE and Nasdaq) is open at a current time, creating orders, searching for stocks, and more...
 
 import datetime, pytz, holidays, os
 import pandas_datareader.data as web
