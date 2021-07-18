@@ -1,5 +1,5 @@
 # This code is the main server code
-# It mange all the parts of the server inluding sockects communication, handaling with multipule clients at the same time and more...
+# It manage all the parts of the server including sockets communication, handling multiple clients at the same time, and more...
 
 import threading, socket, pickle, struct, pyodbc, sys, datetime, hashlib
 from TPserver_functions import create_excel_func, specific_searching_in_market_func,\
