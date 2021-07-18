@@ -37,15 +37,6 @@ class ServerListener(threading.Thread):
             cursor.close()
             cnxn.close()
             kill_excel_app = False
-
-            # while not kill_excel_app:
-            #     try:
-            #         self.excel_app.kill()
-            #         kill_excel_app = True
-            #
-            #     except Exception as ex:
-            #         print(ex)
-            #         time.sleep(1)
             print("     -------------------- server killing ---------------------")
             sys.exit()
 
