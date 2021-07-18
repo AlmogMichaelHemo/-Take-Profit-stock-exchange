@@ -1,4 +1,4 @@
-# This code is the main client side, manage all the comunication with the server and handle the user asks
+# This code is the main client-side, manage all the communication with the server, and handle what the user asks for
 
 import socket, sys, pickle, datetime, pytz, holidays
 
