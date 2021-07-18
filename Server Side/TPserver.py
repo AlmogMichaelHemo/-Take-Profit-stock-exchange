@@ -11,9 +11,9 @@ from TPorders_execute import OrdersRunner
 
 IP = '0.0.0.0'
 PORT = 1030
-PATH_EXCEL = "C:/Users/Almogi/Desktop/פרוייקט בסייבר/stocks_csv/"
+PATH_EXCEL = "C:/Users/Almogi/Desktop/stocks_csv/" # saving csv or xlsx files 
 ACCESS_DRIVER = '{Microsoft Access Driver (*.mdb, *.accdb)}'
-DATABASE_FILE = r'C:\Users\Almogi\Desktop\פרוייקט בסייבר\TP_data_base.accdb'
+DATABASE_FILE = r'C:\Users\Almogi\Desktop\TP_data_base.accdb'
 
 INDEXES_TABLES = {"DowJones30": "DowJones30",
                          "S&P500": "SP500",
